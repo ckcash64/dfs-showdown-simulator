@@ -1,2 +1,41 @@
-# dfs-showdown-simulator
+# DFS Showdown Simulation Engine
+
 Monte Carlo simulation engine for modeling lineup performance, ownership dynamics, and ROI under uncertainty in probabilistic environments.
+
+---
+
+## Overview
+
+This project simulates thousands of possible lineup outcomes to evaluate strategy, risk, and expected value-based decision making.
+
+The system incorporates player performance distributions, ownership dynamics, and lineup construction constraints to generate realistic outcome scenarios and identify optimal lineup structures.
+
+---
+
+## Key Features
+
+- Simulates lineup outcomes using Monte Carlo methods  
+- Models player performance variability and game environments  
+- Incorporates projected ownership and duplication dynamics  
+- Evaluates ROI, win rates, and risk profiles  
+- Analyzes lineup construction patterns including salary allocation  
+
+---
+
+## Example Output
+
+Example simulation output summarizing lineup exposure, salary distribution, and player utilization patterns:
+
+![Simulation Output](simulation_output.png)
+
+---
+
+## Tech Stack
+
+- Python  
+- NumPy  
+- Pandas  
+
+---
+
+## Project Structure
