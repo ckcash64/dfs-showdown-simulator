@@ -24,9 +24,15 @@ The system incorporates player performance distributions, ownership dynamics, an
 
 ## Example Output
 
-Example simulation output summarizing lineup exposure, salary distribution, and player utilization patterns:
+Example simulation output showing player exposure, salary distribution, and optimal lineup tendencies:
 
-![Simulation Output](simulation_output.png)
+### Summary Output
+<img src="simulation_output.png" width="600">
+
+The model generates both high-level strategic insights and detailed lineup-level outputs:
+
+### Detailed Simulation Results
+<img src="simulation_output_2.png" width="600">
 
 ---
 
@@ -38,4 +44,7 @@ Example simulation output summarizing lineup exposure, salary distribution, and 
 
 ---
 
-## Project Structure
+## How to Run
+
+```bash
+python run.py --config config/baseline.yaml --seed 1
